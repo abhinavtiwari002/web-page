@@ -1,0 +1,250 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     overflow-x: hidden;
+ }
+
+ .nav {
+     background-color: #2f2f2f;
+     color: white;
+     padding: 15px 40px;
+ }
+
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 60px 10px 60px;
+ }
+
+ .navbar h2 {
+     font-size: 28px;
+ }
+
+ .click a {
+     color: white;
+     text-decoration: none;
+     margin-left: 20px;
+     font-size: 18px;
+
+ }
+
+ .click a:hover {
+     color: blue;
+ }
+
+ .home-page {
+     display: flex;
+     align-items: center;
+     gap: 20px;
+     padding: 20px 80px;
+     background-color: #f1f1f1;
+
+ }
+
+ .image {
+     width: 600px;
+     height: auto;
+     margin-right: 20px;
+ }
+
+ .image img {
+     width: 100%;
+     height: auto;
+     display: block;
+ }
+
+ .btn button {
+     margin-top: 20px;
+     padding: 5px;
+     background-color: #f59845;
+     color: #fff;
+     border: hidden;
+     width: 200px;
+ }
+
+ .h-tag h1 {
+     margin-top: 20px;
+     margin-bottom: 20px;
+     margin-left: 180px;
+ }
+
+ .heading {
+     display: flex;
+     align-items: center;
+     gap: 70px;
+     margin-left: 185px;
+     width: 300px;
+     height: 350px;
+     margin-bottom: 20px;
+
+ }
+
+ .heading img {
+     width: 250px;
+     height: 200px;
+
+
+ }
+
+ footer {
+     background-color: #2f2f2f;
+     padding: 40px;
+     display: flex;
+     gap: 100px;
+     align-items: start;
+ }
+
+ .left {
+     color: #f1f1f1;
+     padding: 30px;
+     margin-left: 115px
+ }
+
+ .date {
+     background-color: #fff;
+     color: black;
+     width: 50px;
+     height: 50px;
+     padding: 10px;
+     border-radius: 10px;
+     text-align: center;
+
+ }
+
+ .main-date {
+     display: flex;
+     gap: 10px;
+     align-items: center;
+     margin-bottom: 20px;
+ }
+
+ .left h2 {
+     margin-bottom: 20px;
+ }
+
+ .date p {
+     font-size: 12px;
+     text-transform: uppercase
+ }
+
+ .date h6 {
+     font-size: 16px;
+ }
+
+ .text h6 {
+     font-size: 17px;
+     color: #fff;
+ }
+
+ .text p {
+     font-size: 14px;
+     color: #fff;
+ }
+
+ .about {
+     color: #fff;
+     margin-top: 20px;
+ }
+
+ .about p {
+     color: #fff;
+     margin-bottom: 10px;
+     margin-top: 15px;
+ }
+
+ .about-us {
+     width: 300px;
+     height: 200px;
+     margin-left: 40px;
+     margin-top: 7px;
+ }
+ .social-img img{
+    width: 20px;
+ }
+ .social-txt , .contact h2{
+    color: #fff;
+ }
+ .media{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+ }
+ .contact{
+    margin-top: 25px;
+ }
+
+form {
+    width: 45%;
+    margin: auto;
+    background: #310c99;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 25px;
+}
+
+form label {
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    font-size: 16px;
+    transition: .3s;
+}
+
+form input:focus {
+    border-color: #ff0000;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.6);
+}
+
+
+form div {
+    margin-bottom: 22px;
+}
+
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: red;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .4s;
+}
+
+button:hover {
+    background: rgb(184, 0, 0);
+}
+.form-body{
+    background-color: #f1f1f1;
+}
+.form-body h1{
+    margin-top: 10px;
+    height: 101px;
+    color: red;
+    background-color: yellow;
+    text-align: center;
+    width: 150px;
+    margin-left: 600px;
+    border-radius: 37px;
+}
